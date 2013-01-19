@@ -47,7 +47,7 @@ a browser object which implements the selenium API as documented here: http://se
 
 ```shell
 	npm install element34
-``
+```
 
 ## Browsers
 
