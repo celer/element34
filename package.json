@@ -10,7 +10,7 @@
     "testing",
     "web"
   ],
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Client side browser automation suite which utilizes selenium to drive various web browsers",
   "main": "index.js",
   "dependencies": {
@@ -26,4 +26,8 @@
   "devDependencies": {},
   "author": "David Tyree <dtyree77@gmail.com>",
   "license": "MIT"
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/celer/element34.git"
+  }
 }
