@@ -71,7 +71,7 @@ element34 will prompt for the installation of a safari extension which is requir
 
 element34 will attempt to locate the android sdk by looking in ~/  ~/Desktop/ and ANDROID_SDK for the location of the android SDK, if it is found
 then element34 will see if any android devices are either being emulated or attached to the emulator, and if so it will install the requisite android
-test application and connect to it.
+test application and connect to it. If it fails to detect an available device run 'adb devices' and see what is listed there.
 
 ### iOS / iPhone / iPad
 
