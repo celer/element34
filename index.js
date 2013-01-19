@@ -17,14 +17,14 @@ element34.browsers=function(onComplete){
 	var bf = [];
 	var checkBrowser = function(){
 		var b = bs.shift();
-		if(b!=undefined){
+		if(typeof b!="undefined"){
 			var browser = new element34[b]();
 			browser.isAvailable(function(err,res){
 				if(res) bf.push(b);
 				checkBrowser();
 			},false);
 		} else {
-			onComplete(null,bf);
+			return onComplete(null,bf);
 		}
 	}
 	checkBrowser();	
