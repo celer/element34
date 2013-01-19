@@ -22,6 +22,7 @@ class OperaWrapper extends BrowserWrapper {
   public Selenium openBrowser(String url){
     	driver = new OperaDriver(desiredCapabilities);
 			driver.navigate().to(url);
+			//driver.get(url);
     	selenium = new WebDriverBackedSelenium(driver,url);
     	return selenium;
 	}
