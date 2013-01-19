@@ -87,7 +87,7 @@ http://code.google.com/p/selenium/wiki/IPhoneDriver
  
 # License
 	
-element34 is under an MIT license 
+element34 is under a MIT license 
 
 # Attribution
 
