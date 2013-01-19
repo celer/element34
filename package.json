@@ -1,0 +1,17 @@
+{
+  "name": "element34",
+  "keywords": ["firefox","chrome","selenium","browser","iphone","android","testing","web"],
+  "version": "0.0.1",
+  "description": "Client side browser automation suite which utilizes selenium to drive various web browsers",
+  "main": "index.js",
+  "dependencies": {
+    "java": "*"
+  },
+	"scripts":{
+		"prepublish":"node ./prepublish.js",
+		"install":"node ./install.js"
+	},
+  "devDependencies": {},
+  "author": "David Tyree <dtyree77@gmail.com>",
+  "license": "MIT"
+}
